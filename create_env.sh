@@ -12,7 +12,7 @@ virtualenv ENV --no-site-packages --python=python${PYVERSION:-2.7}
 source ENV/bin/activate
 
 # Install downloaded packages
-$NIMBIC_HOME/downloads/easy_install_all.bash
+$ESTAPP/packages/install_all.sh
 
 echo '####################################################'
 echo ''
