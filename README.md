@@ -7,7 +7,7 @@ bottle - webserver
 beaker - sessions
 tornado - para que corrar el webserver de test
 
-pip install bottle beaker tornado
+pip install bottle beaker tornado fono
 
 Puerto por defecto 8080
 
